@@ -1,0 +1,92 @@
+<div class="center-box">
+  <div class="left-half">
+    <img src="image3.jpg" alt="Image 3">
+    <div class="card-box bottom-right">
+      <h3>Card 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+  <div class="right-half">
+    <img class="top-left" src="image1.jpg" alt="Image 1">
+    <div class="card-box top-right">
+      <h3>Card 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="card-box bottom-left">
+      <h3>Card 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <img class="bottom-right" src="image2.jpg" alt="Image 2">
+  </div>
+</div>
+
+</div>
+<style>
+    .center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 2rem;
+}
+
+.left-half {
+  width: 50%;
+  position: relative;
+}
+
+.left-half img {
+  width: 100%;
+  height: auto;
+}
+
+.bottom-right {
+  top:50;
+  bottom: 0;
+  right:0 ;
+  background-color: #EFEFEF;
+  padding: 10px;
+}
+
+.right-half {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.top-left {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.top-right {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-color: #EFEFEF;
+  padding: 1rem;
+}
+
+.bottom-left {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-color: #EFEFEF;
+  padding: 1rem;
+}
+
+.bottom-right-img {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.right-half img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-box {
+  border: 1px solid #333;
+  padding: 1rem;
+  text-align: center;
+}
+</style>

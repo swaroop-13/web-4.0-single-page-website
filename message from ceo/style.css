@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .image img {
+    margin-top: 80px;
+    margin-left: 90px;
+    width: 350px;
+    height: 350px;
+    border-radius: 0%;
+  }
+  
+  .message {
+    margin-left: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .message h2{
+    font-size: 40px;
+  }
+  .message p1 {
+    margin-top: -20px;
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .message p2 {
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .message h3 {
+    margin-left: 50px;
+    font-size: 28px;
+  }
+  .swa{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .swa1{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
